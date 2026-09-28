@@ -1,479 +1,1044 @@
-[
-  [
-    "كونان إيدوغاوا",
-    "江戸川 コナン",
-    "البطل",
-    "الرئيسية",
-    "MAIN",
-    "الهوية التي يستخدمها شينيتشي كودو بعد تقلص جسده.",
-    "شينيتشي كودو"
-  ],
-  [
-    "شينيتشي كودو",
-    "工藤 新一",
-    "محقق ثانوية",
-    "الرئيسية",
-    "MAIN",
-    "المحقق الشهير في الثانوية والهوية الأصلية لكونان.",
-    "كونان إيدوغاوا"
-  ],
-  [
-    "ران موري",
-    "毛利 蘭",
-    "طالبة / كاراتيه",
-    "الرئيسية",
-    "MAIN",
-    "صديقة شينيتشي وابنة كوغورو.",
-    "شينيتشي كودو"
-  ],
-  [
-    "كوغورو موري",
-    "毛利 小五郎",
-    "محقق خاص",
-    "الرئيسية",
-    "MAIN",
-    "والد ران وصاحب مكتب موري للتحقيقات.",
-    "ران موري"
-  ],
-  [
-    "هايبارا آي",
-    "灰原 哀",
-    "عالمة / عضوة سابقة",
-    "الرئيسية",
-    "MAIN",
-    "شخصية محورية ذات ماضٍ مرتبط بالمنظمة السوداء.",
-    "ميانو شيهو"
-  ],
-  [
-    "الدكتور أغاسا",
-    "阿笠 博士",
-    "مخترع",
-    "الرئيسية",
-    "MAIN",
-    "مخترع وصديق مقرب لكونان.",
-    "كونان إيدوغاوا"
-  ],
-  [
-    "أيومي يوشيدا",
-    "吉田 歩美",
-    "المتحرون الصغار",
-    "المتحرون الصغار",
-    "DETECTIVES",
-    "عضوة في فريق المتحرين الصغار.",
-    "غينتا كوجيما"
-  ],
-  [
-    "غينتا كوجيما",
-    "小嶋 元太",
-    "المتحرون الصغار",
-    "المتحرون الصغار",
-    "DETECTIVES",
-    "عضو في فريق المتحرين الصغار.",
-    "ميتسوهيكو تسوبورايا"
-  ],
-  [
-    "ميتسوهيكو تسوبورايا",
-    "円谷 光彦",
-    "المتحرون الصغار",
-    "المتحرون الصغار",
-    "DETECTIVES",
-    "عضو ذكي وفضولي في الفريق.",
-    "أيومي يوشيدا"
-  ],
-  [
-    "سونوكو سوزوكي",
-    "鈴木 園子",
-    "صديقة ران",
-    "الرئيسية",
-    "MAIN CAST",
-    "صديقة ران المقربة من عائلة سوزوكي.",
-    "ران موري"
-  ],
-  [
-    "هاتوري هيجي",
-    "服部 平次",
-    "محقق أوساكا",
-    "أوساكا",
-    "OSAKA",
-    "محقق ثانوية ومنافس وصديق لكونان.",
-    "توياما كازوها"
-  ],
-  [
-    "توياما كازوها",
-    "遠山 和葉",
-    "أوساكا",
-    "أوساكا",
-    "OSAKA",
-    "صديقة طفولة هيجي.",
-    "هاتوري هيجي"
-  ],
-  [
-    "أوكا موميجي",
-    "大岡 紅葉",
-    "أوساكا",
-    "أوساكا",
-    "OSAKA",
-    "شخصية مرتبطة بخط هيجي وأوساكا.",
-    "هاتوري هيجي"
-  ],
-  [
-    "ميغوري جوزو",
-    "目暮 十三",
-    "شرطة طوكيو",
-    "الشرطة",
-    "POLICE",
-    "مفتش في شرطة العاصمة.",
-    "تاكاغي واتارو"
-  ],
-  [
-    "ساتو ميواكو",
-    "佐藤 美和子",
-    "شرطة طوكيو",
-    "الشرطة",
-    "POLICE",
-    "ضابطة بارزة في شرطة العاصمة.",
-    "تاكاغي واتارو"
-  ],
-  [
-    "تاكاغي واتارو",
-    "高木 渉",
-    "شرطة طوكيو",
-    "الشرطة",
-    "POLICE",
-    "ضابط يعمل ضمن فريق التحقيق.",
-    "ساتو ميواكو"
-  ],
-  [
-    "شيروتوري نينزابورو",
-    "白鳥 任三郎",
-    "شرطة طوكيو",
-    "الشرطة",
-    "POLICE",
-    "مفتش في شرطة العاصمة.",
-    "ميغوري جوزو"
-  ],
-  [
-    "ياماتو كانسوكي",
-    "大和 敢助",
-    "شرطة ناغانو",
-    "الشرطة",
-    "NAGANO",
-    "مفتش من شرطة ناغانو.",
-    "موروفوشي تاكااكي"
-  ],
-  [
-    "أويهارا يوي",
-    "上原 由衣",
-    "شرطة ناغانو",
-    "الشرطة",
-    "NAGANO",
-    "ضابطة من شرطة ناغانو.",
-    "ياماتو كانسوكي"
-  ],
-  [
-    "موروفوشي تاكااكي",
-    "諸伏 高明",
-    "شرطة ناغانو",
-    "الشرطة",
-    "NAGANO",
-    "مفتش من شرطة ناغانو.",
-    "موروفوشي هيروميتسو"
-  ],
-  [
-    "أكاي شويتشي",
-    "赤井 秀一",
-    "FBI",
-    "FBI",
-    "FBI",
-    "عميل FBI مرتبط بمواجهة المنظمة السوداء.",
-    "أوكيا سوبارو"
-  ],
-  [
-    "جودي ستارلينغ",
-    "ジョディ・スターリング",
-    "FBI",
-    "FBI",
-    "FBI",
-    "عميلة FBI شاركت في التحقيقات المرتبطة بالمنظمة.",
-    "أكاي شويتشي"
-  ],
-  [
-    "جيمس بلاك",
-    "ジェイムズ・ブラック",
-    "FBI",
-    "FBI",
-    "FBI",
-    "مسؤول في فريق FBI باليابان.",
-    "أكاي شويتشي"
-  ],
-  [
-    "أندريه كاميل",
-    "アンドレ・キャメル",
-    "FBI",
-    "FBI",
-    "FBI",
-    "عميل FBI وعضو في فريق أكاي.",
-    "أكاي شويتشي"
-  ],
-  [
-    "أمورو تورو",
-    "安室 透",
-    "الأمن العام / بوربون",
-    "الأمن العام",
-    "PUBLIC SECURITY",
-    "شخصية متعددة الهويات والارتباطات.",
-    "فورويا ري"
-  ],
-  [
-    "فورويا ري",
-    "降谷 零",
-    "الأمن العام",
-    "الأمن العام",
-    "PUBLIC SECURITY",
-    "الهوية الأصلية لأمورو تورو.",
-    "أمورو تورو"
-  ],
-  [
-    "كازامي يوتيا",
-    "風見 裕也",
-    "الأمن العام",
-    "الأمن العام",
-    "PUBLIC SECURITY",
-    "ضابط مرتبط بالأمن العام.",
-    "أمورو تورو"
-  ],
-  [
-    "جين",
-    "ジン",
-    "المنظمة السوداء",
-    "المنظمة السوداء",
-    "ORGANIZATION",
-    "عضو بارز في المنظمة السوداء.",
-    "وودكا"
-  ],
-  [
-    "وودكا",
-    "ウォッカ",
-    "المنظمة السوداء",
-    "المنظمة السوداء",
-    "ORGANIZATION",
-    "شريك جين الدائم.",
-    "جين"
-  ],
-  [
-    "بلموت",
-    "ベルモット",
-    "المنظمة السوداء",
-    "المنظمة السوداء",
-    "ORGANIZATION",
-    "عضوة بارزة تتميز بالتنكر.",
-    "جين"
-  ],
-  [
-    "كانتي",
-    "キャンティ",
-    "قناصة",
-    "المنظمة السوداء",
-    "ORGANIZATION",
-    "قناصة في المنظمة السوداء.",
-    "كورن"
-  ],
-  [
-    "كورن",
-    "コルン",
-    "قناص",
-    "المنظمة السوداء",
-    "ORGANIZATION",
-    "قناص في المنظمة السوداء.",
-    "كانتي"
-  ],
-  [
-    "رام",
-    "ラム",
-    "المنظمة السوداء",
-    "المنظمة السوداء",
-    "ORGANIZATION",
-    "شخصية قيادية في المنظمة السوداء.",
-    "واكيتا كانينوري"
-  ],
-  [
-    "واكيتا كانينوري",
-    "脇田 兼則",
-    "هوية مرتبطة برام",
-    "المنظمة السوداء",
-    "MYSTERY",
-    "شخصية مرتبطة بخط رام.",
-    "رام"
-  ],
-  [
-    "ميانو أكيمي",
-    "宮野 明美",
-    "مرتبطة بالمنظمة",
-    "عائلة ميانو",
-    "MIYANO",
-    "شخصية من عائلة ميانو مرتبطة بتاريخ المنظمة.",
-    "ميانو شيهو"
-  ],
-  [
-    "ميانو شيهو",
-    "宮野 志保",
-    "شيري",
-    "عائلة ميانو",
-    "SHERRY",
-    "الهوية الأصلية لهايبرا آي.",
-    "هايبارا آي"
-  ],
-  [
-    "كودو يوساكو",
-    "工藤 優作",
-    "كاتب / محقق",
-    "عائلة كودو",
-    "KUDO",
-    "والد شينيتشي وكاتب ومحقق معروف.",
-    "شينيتشي كودو"
-  ],
-  [
-    "كودو يوكيو",
-    "工藤 有希子",
-    "ممثلة",
-    "عائلة كودو",
-    "KUDO",
-    "والدة شينيتشي وممثلة سابقة.",
-    "شينيتشي كودو"
-  ],
-  [
-    "كيساكي إيري",
-    "妃 英理",
-    "محامية",
-    "عائلة موري",
-    "MORI",
-    "والدة ران وزوجة كوغورو السابقة.",
-    "ران موري"
-  ],
-  [
-    "ماري أكاي",
-    "赤井 メアリー",
-    "عائلة أكاي",
-    "عائلة أكاي",
-    "AKAI",
-    "والدة شويتشي وماسومي وهيدييوشي.",
-    "أكاي شويتشي"
-  ],
-  [
-    "سيرا ماسومي",
-    "世良 真純",
-    "محققة ثانوية",
-    "منافسون",
-    "RIVAL",
-    "محققة ثانوية مرتبطة بعائلة أكاي.",
-    "أكاي شويتشي"
-  ],
-  [
-    "أوكيا سوبارو",
-    "沖矢 昴",
-    "طالب دراسات عليا",
-    "منافسون",
-    "MYSTERY",
-    "شخصية غامضة مرتبطة بخط أكاي.",
-    "أكاي شويتشي"
-  ],
-  [
-    "هاتا هيدييوشي",
-    "羽田 秀吉",
-    "لاعب شوغي",
-    "عائلة أكاي",
-    "SHUKICHI",
-    "عضو من عائلة أكاي.",
-    "أكاي شويتشي"
-  ],
-  [
-    "كايتو كيد",
-    "怪盗キッド",
-    "اللص الشبح",
-    "منافسون",
-    "RIVAL",
-    "لص محترف ومنافس متكرر لكونان.",
-    "شينيتشي كودو"
-  ],
-  [
-    "كييوغوكو ماكوتو",
-    "京極 真",
-    "كاراتيه",
-    "منافسون",
-    "RIVAL",
-    "مقاتل قوي ومرتبط بسونوكو.",
-    "سونوكو سوزوكي"
-  ],
-  [
-    "ناكاموري غينزو",
-    "中森 銀三",
-    "شرطة / كايتو كيد",
-    "الشرطة",
-    "POLICE",
-    "مفتش مرتبط بمطاردة كايتو كيد.",
-    "كايتو كيد"
-  ],
-  [
-    "إينوموتو أزوسا",
-    "榎本 梓",
-    "مقهى بوارو",
-    "أماكن",
-    "POIROT",
-    "موظفة في مقهى بوارو.",
-    "أمورو تورو"
-  ],
-  [
-    "واكاسا رومي",
-    "若狭 留美",
-    "معلمة",
-    "المدرسة",
-    "MYSTERY",
-    "معلمة ذات خلفية غامضة.",
-    "المتحرون الصغار"
-  ],
-  [
-    "كوباياشي سوميكو",
-    "小林 澄子",
-    "معلمة",
-    "المدرسة",
-    "SCHOOL",
-    "معلمة مرتبطة بالمتحرين الصغار.",
-    "المتحرون الصغار"
-  ],
-  [
-    "هوندو إيسوكي",
-    "本堂 瑛祐",
-    "طالب",
-    "المدرسة",
-    "SCHOOL",
-    "شخصية مرتبطة بخط كير وعائلة هوندو.",
-    "ميزوناشي رينا"
-  ],
-  [
-    "سوزوكي جيروكيشي",
-    "鈴木 次郎吉",
-    "عائلة سوزوكي",
-    "عائلة سوزوكي",
-    "SUZUKI",
-    "قريب سونوكو ومنافس متكرر لكايتو كيد.",
-    "كايتو كيد"
-  ],
-  [
-    "هاتوري شيزوكا",
-    "服部 静華",
-    "عائلة هاتوري",
-    "أوساكا",
-    "OSAKA",
-    "والدة هيجي.",
-    "هاتوري هيجي"
-  ],
-  [
-    "تسوتومو أكاي",
-    "赤井 務武",
-    "عائلة أكاي",
-    "عائلة أكاي",
-    "AKAI",
-    "والد عائلة أكاي.",
-    "أكاي شويتشي"
-  ]
-]
+{
+  "كونان إيدوغاوا": {
+    "name": "كونان إيدوغاوا",
+    "jp": "江戸川 コナン",
+    "role": "البطل",
+    "group": "الرئيسية",
+    "tag": "MAIN",
+    "desc": "الهوية التي يستخدمها شينيتشي كودو بعد تقلص جسده.",
+    "related": "شينيتشي كودو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Conan_Edogawa_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/conan/",
+    "episodes": [
+      [
+        "1",
+        "قضية قتل السفينة الدوارة"
+      ],
+      [
+        "2",
+        "قضية اختطاف ابنة رئيس الشركة"
+      ],
+      [
+        "129",
+        "المرأة القادمة من المنظمة السوداء"
+      ],
+      [
+        "345",
+        "ليلة اكتمال القمر"
+      ],
+      [
+        "425",
+        "المواجهة السوداء الثانية"
+      ]
+    ]
+  },
+  "شينيتشي كودو": {
+    "name": "شينيتشي كودو",
+    "jp": "工藤 新一",
+    "role": "محقق ثانوية",
+    "group": "الرئيسية",
+    "tag": "MAIN",
+    "desc": "المحقق الشهير في الثانوية والهوية الأصلية لكونان.",
+    "related": "كونان إيدوغاوا",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Shinichi_Kudo_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/shinichi/",
+    "episodes": [
+      [
+        "1",
+        "قضية قتل السفينة الدوارة"
+      ],
+      [
+        "48–49",
+        "قضية مقتل الدبلوماسي"
+      ],
+      [
+        "190–193",
+        "عودة شينيتشي كودو"
+      ],
+      [
+        "521–523",
+        "قاتل شينيتشي كودو"
+      ],
+      [
+        "927–928",
+        "قضايا شينيتشي وران"
+      ]
+    ]
+  },
+  "ران موري": {
+    "name": "ران موري",
+    "jp": "毛利 蘭",
+    "role": "طالبة / كاراتيه",
+    "group": "الرئيسية",
+    "tag": "MAIN",
+    "desc": "صديقة شينيتشي وابنة كوغورو.",
+    "related": "شينيتشي كودو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Ran_Mouri_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "1",
+        "قضية قتل السفينة الدوارة"
+      ],
+      [
+        "48–49",
+        "قضية مقتل الدبلوماسي"
+      ],
+      [
+        "188–193",
+        "عودة شينيتشي كودو"
+      ],
+      [
+        "616–621",
+        "قضايا ران المختارة"
+      ],
+      [
+        "1213",
+        "الشاهدة، ران موري"
+      ]
+    ]
+  },
+  "كوغورو موري": {
+    "name": "كوغورو موري",
+    "jp": "毛利 小五郎",
+    "role": "محقق خاص",
+    "group": "الرئيسية",
+    "tag": "MAIN",
+    "desc": "والد ران وصاحب مكتب موري للتحقيقات.",
+    "related": "ران موري",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Kogoro_Mouri_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "2",
+        "قضية اختطاف ابنة رئيس الشركة"
+      ],
+      [
+        "96–97",
+        "قضايا كوغورو والشرطة"
+      ],
+      [
+        "217",
+        "قضية ميغوري"
+      ],
+      [
+        "333–336",
+        "قضايا كوغورو"
+      ],
+      [
+        "1213",
+        "ظهورات حديثة مختارة"
+      ]
+    ]
+  },
+  "هايبارا آي": {
+    "name": "هايبارا آي",
+    "jp": "灰原 哀",
+    "role": "عالمة / عضوة سابقة",
+    "group": "الرئيسية",
+    "tag": "MAIN",
+    "desc": "شخصية محورية ذات ماضٍ مرتبط بالمنظمة السوداء.",
+    "related": "ميانو شيهو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Haibara_Ai_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/haibara/",
+    "episodes": [
+      [
+        "129",
+        "المرأة القادمة من المنظمة السوداء"
+      ],
+      [
+        "176–178",
+        "بداية خط بلموت"
+      ],
+      [
+        "345",
+        "ليلة اكتمال القمر"
+      ],
+      [
+        "701–704",
+        "السلسلة الحمراء"
+      ],
+      [
+        "1077–1080",
+        "قضايا حديثة"
+      ]
+    ]
+  },
+  "الدكتور أغاسا": {
+    "name": "الدكتور أغاسا",
+    "jp": "阿笠 博士",
+    "role": "مخترع",
+    "group": "الرئيسية",
+    "tag": "MAIN",
+    "desc": "مخترع وصديق مقرب لكونان.",
+    "related": "كونان إيدوغاوا",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Hiroshi_Agasa_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "1",
+        "بداية قصة كونان"
+      ],
+      [
+        "129",
+        "ظهور هايبارا"
+      ],
+      [
+        "309–311",
+        "قضايا المتحرين الصغار"
+      ],
+      [
+        "486–487",
+        "قضايا مرتبطة باختراعات أغاسا"
+      ]
+    ]
+  },
+  "أيومي يوشيدا": {
+    "name": "أيومي يوشيدا",
+    "jp": "吉田 歩美",
+    "role": "المتحرون الصغار",
+    "group": "المتحرون الصغار",
+    "tag": "DETECTIVES",
+    "desc": "عضوة في فريق المتحرين الصغار.",
+    "related": "غينتا كوجيما",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Ayumi_Yoshida_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "1",
+        "قضية قتل السفينة الدوارة"
+      ],
+      [
+        "12",
+        "قضية اختطاف أيومي"
+      ],
+      [
+        "33",
+        "قضية نجاة المتحرين الصغار"
+      ],
+      [
+        "140",
+        "رسائل SOS من أيومي"
+      ]
+    ]
+  },
+  "غينتا كوجيما": {
+    "name": "غينتا كوجيما",
+    "jp": "小嶋 元太",
+    "role": "المتحرون الصغار",
+    "group": "المتحرون الصغار",
+    "tag": "DETECTIVES",
+    "desc": "عضو في فريق المتحرين الصغار.",
+    "related": "ميتسوهيكو تسوبورايا",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Genta_Kojima_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "1",
+        "قضية قتل السفينة الدوارة"
+      ],
+      [
+        "12",
+        "قضية اختطاف أيومي"
+      ],
+      [
+        "33",
+        "قضية نجاة المتحرين الصغار"
+      ],
+      [
+        "R170",
+        "المتحرون الصغار والإخوة الأربعة"
+      ]
+    ]
+  },
+  "ميتسوهيكو تسوبورايا": {
+    "name": "ميتسوهيكو تسوبورايا",
+    "jp": "円谷 光彦",
+    "role": "المتحرون الصغار",
+    "group": "المتحرون الصغار",
+    "tag": "DETECTIVES",
+    "desc": "عضو ذكي وفضولي في الفريق.",
+    "related": "أيومي يوشيدا",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Mitsuhiko_Tsuburaya_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "1",
+        "قضية قتل السفينة الدوارة"
+      ],
+      [
+        "33",
+        "قضية نجاة المتحرين الصغار"
+      ],
+      [
+        "136–137",
+        "قضية القلعة الزرقاء القديمة"
+      ],
+      [
+        "140",
+        "رسائل SOS من أيومي"
+      ]
+    ]
+  },
+  "سونوكو سوزوكي": {
+    "name": "سونوكو سوزوكي",
+    "jp": "鈴木 園子",
+    "role": "صديقة ران",
+    "group": "الرئيسية",
+    "tag": "MAIN CAST",
+    "desc": "صديقة ران المقربة من عائلة سوزوكي.",
+    "related": "ران موري",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Sonoko_Suzuki_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "6",
+        "قضية جريمة عيد الحب"
+      ],
+      [
+        "34–35",
+        "قضية الرجل الملثم"
+      ],
+      [
+        "219",
+        "قضية سونوكو"
+      ],
+      [
+        "490",
+        "مواجهة هيجي وشينيتشي"
+      ]
+    ]
+  },
+  "هاتوري هيجي": {
+    "name": "هاتوري هيجي",
+    "jp": "服部 平次",
+    "role": "محقق أوساكا",
+    "group": "أوساكا",
+    "tag": "OSAKA",
+    "desc": "محقق ثانوية ومنافس وصديق لكونان.",
+    "related": "توياما كازوها",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Heiji_Hattori_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "48–49",
+        "قضية مقتل الدبلوماسي"
+      ],
+      [
+        "57–58",
+        "الإخوة الغامضون"
+      ],
+      [
+        "118",
+        "قضية جرائم نانيوا المتسلسلة"
+      ],
+      [
+        "490",
+        "هيجي ضد شينيتشي"
+      ],
+      [
+        "1029–1030",
+        "قضايا هيجي وكازوها"
+      ]
+    ]
+  },
+  "توياما كازوها": {
+    "name": "توياما كازوها",
+    "jp": "遠山 和葉",
+    "role": "أوساكا",
+    "group": "أوساكا",
+    "tag": "OSAKA",
+    "desc": "صديقة طفولة هيجي.",
+    "related": "هاتوري هيجي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Kazuha_Toyama_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "118",
+        "قضية جرائم نانيوا المتسلسلة"
+      ],
+      [
+        "141–143",
+        "قضايا كازوها وهيجي"
+      ],
+      [
+        "166–168",
+        "قضايا أوساكا"
+      ],
+      [
+        "1029–1030",
+        "قضايا هيجي وكازوها"
+      ]
+    ]
+  },
+  "أوكا موميجي": {
+    "name": "أوكا موميجي",
+    "jp": "大岡 紅葉",
+    "role": "أوساكا",
+    "group": "أوساكا",
+    "tag": "OSAKA",
+    "desc": "شخصية مرتبطة بخط هيجي وأوساكا.",
+    "related": "هاتوري هيجي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Momiji_Ooka_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "ميغوري جوزو": {
+    "name": "ميغوري جوزو",
+    "jp": "目暮 十三",
+    "role": "شرطة طوكيو",
+    "group": "الشرطة",
+    "tag": "POLICE",
+    "desc": "مفتش في شرطة العاصمة.",
+    "related": "تاكاغي واتارو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Juzo_Megure_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "ساتو ميواكو": {
+    "name": "ساتو ميواكو",
+    "jp": "佐藤 美和子",
+    "role": "شرطة طوكيو",
+    "group": "الشرطة",
+    "tag": "POLICE",
+    "desc": "ضابطة بارزة في شرطة العاصمة.",
+    "related": "تاكاغي واتارو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Miwako_Sato_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "130–131",
+        "قضية تهديد الملعب"
+      ],
+      [
+        "146–147",
+        "قصة حب محققي شرطة العاصمة"
+      ],
+      [
+        "304",
+        "قضية الحب القديمة"
+      ],
+      [
+        "535–536",
+        "قضايا ساتو وتاكاغي"
+      ]
+    ]
+  },
+  "تاكاغي واتارو": {
+    "name": "تاكاغي واتارو",
+    "jp": "高木 渉",
+    "role": "شرطة طوكيو",
+    "group": "الشرطة",
+    "tag": "POLICE",
+    "desc": "ضابط يعمل ضمن فريق التحقيق.",
+    "related": "ساتو ميواكو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Wataru_Takagi_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "146–147",
+        "قصة حب محققي شرطة العاصمة"
+      ],
+      [
+        "156–157",
+        "قصة حب محققي شرطة العاصمة 2"
+      ],
+      [
+        "304",
+        "قضية الحب القديمة"
+      ],
+      [
+        "535–536",
+        "قضايا ساتو وتاكاغي"
+      ]
+    ]
+  },
+  "شيروتوري نينزابورو": {
+    "name": "شيروتوري نينزابورو",
+    "jp": "白鳥 任三郎",
+    "role": "شرطة طوكيو",
+    "group": "الشرطة",
+    "tag": "POLICE",
+    "desc": "مفتش في شرطة العاصمة.",
+    "related": "ميغوري جوزو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Ninzaburo_Shiratori_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "146–147",
+        "قصة حب محققي شرطة العاصمة"
+      ],
+      [
+        "304",
+        "قضية الحب القديمة"
+      ],
+      [
+        "568–569",
+        "قضايا شيروتوري وكوباياشي"
+      ]
+    ]
+  },
+  "ياماتو كانسوكي": {
+    "name": "ياماتو كانسوكي",
+    "jp": "大和 敢助",
+    "role": "شرطة ناغانو",
+    "group": "الشرطة",
+    "tag": "NAGANO",
+    "desc": "مفتش من شرطة ناغانو.",
+    "related": "موروفوشي تاكااكي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Kansuke_Yamato_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "أويهارا يوي": {
+    "name": "أويهارا يوي",
+    "jp": "上原 由衣",
+    "role": "شرطة ناغانو",
+    "group": "الشرطة",
+    "tag": "NAGANO",
+    "desc": "ضابطة من شرطة ناغانو.",
+    "related": "ياماتو كانسوكي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Yui_Uehara_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "موروفوشي تاكااكي": {
+    "name": "موروفوشي تاكااكي",
+    "jp": "諸伏 高明",
+    "role": "شرطة ناغانو",
+    "group": "الشرطة",
+    "tag": "NAGANO",
+    "desc": "مفتش من شرطة ناغانو.",
+    "related": "موروفوشي هيروميتسو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Takaaki_Morofushi_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "أكاي شويتشي": {
+    "name": "أكاي شويتشي",
+    "jp": "赤井 秀一",
+    "role": "FBI",
+    "group": "FBI",
+    "tag": "FBI",
+    "desc": "عميل FBI مرتبط بمواجهة المنظمة السوداء.",
+    "related": "أوكيا سوبارو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Shuichi_Akai_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "230–231",
+        "الراكب الغامض"
+      ],
+      [
+        "345",
+        "ليلة اكتمال القمر"
+      ],
+      [
+        "491–504",
+        "المواجهة السوداء والحمراء"
+      ],
+      [
+        "779–783",
+        "السلسلة القرمزية"
+      ],
+      [
+        "861–864",
+        "قضايا أكاي الحديثة"
+      ]
+    ]
+  },
+  "جودي ستارلينغ": {
+    "name": "جودي ستارلينغ",
+    "jp": "ジョディ・スターリング",
+    "role": "FBI",
+    "group": "FBI",
+    "tag": "FBI",
+    "desc": "عميلة FBI شاركت في التحقيقات المرتبطة بالمنظمة.",
+    "related": "أكاي شويتشي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Jodie_Starling_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "جيمس بلاك": {
+    "name": "جيمس بلاك",
+    "jp": "ジェイムズ・ブラック",
+    "role": "FBI",
+    "group": "FBI",
+    "tag": "FBI",
+    "desc": "مسؤول في فريق FBI باليابان.",
+    "related": "أكاي شويتشي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/James_Black_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "أندريه كاميل": {
+    "name": "أندريه كاميل",
+    "jp": "アンドレ・キャメル",
+    "role": "FBI",
+    "group": "FBI",
+    "tag": "FBI",
+    "desc": "عميل FBI وعضو في فريق أكاي.",
+    "related": "أكاي شويتشي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Andre_Camel_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "أمورو تورو": {
+    "name": "أمورو تورو",
+    "jp": "安室 透",
+    "role": "الأمن العام / بوربون",
+    "group": "الأمن العام",
+    "tag": "PUBLIC SECURITY",
+    "desc": "شخصية متعددة الهويات والارتباطات.",
+    "related": "فورويا ري",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Toru_Amuro_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/amuro/",
+    "episodes": [
+      [
+        "667–668",
+        "ليلة الزفاف"
+      ],
+      [
+        "700",
+        "القضية المرتبطة بالحافلة"
+      ],
+      [
+        "701–704",
+        "السلسلة الحمراء"
+      ],
+      [
+        "770–783",
+        "قضايا بوربون والقرمزي"
+      ],
+      [
+        "898–902",
+        "قضايا أمورو"
+      ]
+    ]
+  },
+  "فورويا ري": {
+    "name": "فورويا ري",
+    "jp": "降谷 零",
+    "role": "الأمن العام",
+    "group": "الأمن العام",
+    "tag": "PUBLIC SECURITY",
+    "desc": "الهوية الأصلية لأمورو تورو.",
+    "related": "أمورو تورو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Rei_Furuya_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/furuya/",
+    "episodes": [
+      [
+        "779–783",
+        "السلسلة القرمزية"
+      ],
+      [
+        "866–867",
+        "قضايا فورويا"
+      ],
+      [
+        "1029–1030",
+        "قضايا الأمن العام"
+      ],
+      [
+        "Police Academy",
+        "Wild Police Story"
+      ]
+    ]
+  },
+  "كازامي يوتيا": {
+    "name": "كازامي يوتيا",
+    "jp": "風見 裕也",
+    "role": "الأمن العام",
+    "group": "الأمن العام",
+    "tag": "PUBLIC SECURITY",
+    "desc": "ضابط مرتبط بالأمن العام.",
+    "related": "أمورو تورو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Yuya_Kazami_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "جين": {
+    "name": "جين",
+    "jp": "ジン",
+    "role": "المنظمة السوداء",
+    "group": "المنظمة السوداء",
+    "tag": "ORGANIZATION",
+    "desc": "عضو بارز في المنظمة السوداء.",
+    "related": "وودكا",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Gin_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "1",
+        "قضية قتل السفينة الدوارة"
+      ],
+      [
+        "13",
+        "قضية تهديد لاعب كرة القدم"
+      ],
+      [
+        "176–178",
+        "خط المنظمة السوداء"
+      ],
+      [
+        "345",
+        "ليلة اكتمال القمر"
+      ],
+      [
+        "425",
+        "المواجهة السوداء الثانية"
+      ]
+    ]
+  },
+  "وودكا": {
+    "name": "وودكا",
+    "jp": "ウォッカ",
+    "role": "المنظمة السوداء",
+    "group": "المنظمة السوداء",
+    "tag": "ORGANIZATION",
+    "desc": "شريك جين الدائم.",
+    "related": "جين",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Vodka_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "1",
+        "قضية قتل السفينة الدوارة"
+      ],
+      [
+        "176–178",
+        "خط المنظمة"
+      ],
+      [
+        "345",
+        "ليلة اكتمال القمر"
+      ],
+      [
+        "425",
+        "المواجهة السوداء الثانية"
+      ]
+    ]
+  },
+  "بلموت": {
+    "name": "بلموت",
+    "jp": "ベルモット",
+    "role": "المنظمة السوداء",
+    "group": "المنظمة السوداء",
+    "tag": "ORGANIZATION",
+    "desc": "عضوة بارزة تتميز بالتنكر.",
+    "related": "جين",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Vermouth_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "176–178",
+        "بداية خط بلموت"
+      ],
+      [
+        "286–288",
+        "قضية نيويورك"
+      ],
+      [
+        "345",
+        "ليلة اكتمال القمر"
+      ],
+      [
+        "425",
+        "المواجهة السوداء الثانية"
+      ]
+    ]
+  },
+  "كانتي": {
+    "name": "كانتي",
+    "jp": "キャンティ",
+    "role": "قناصة",
+    "group": "المنظمة السوداء",
+    "tag": "ORGANIZATION",
+    "desc": "قناصة في المنظمة السوداء.",
+    "related": "كورن",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Chianti_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "كورن": {
+    "name": "كورن",
+    "jp": "コルン",
+    "role": "قناص",
+    "group": "المنظمة السوداء",
+    "tag": "ORGANIZATION",
+    "desc": "قناص في المنظمة السوداء.",
+    "related": "كانتي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Korn_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "رام": {
+    "name": "رام",
+    "jp": "ラム",
+    "role": "المنظمة السوداء",
+    "group": "المنظمة السوداء",
+    "tag": "ORGANIZATION",
+    "desc": "شخصية قيادية في المنظمة السوداء.",
+    "related": "واكيتا كانينوري",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Rum_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "واكيتا كانينوري": {
+    "name": "واكيتا كانينوري",
+    "jp": "脇田 兼則",
+    "role": "هوية مرتبطة برام",
+    "group": "المنظمة السوداء",
+    "tag": "MYSTERY",
+    "desc": "شخصية مرتبطة بخط رام.",
+    "related": "رام",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Kanenori_Wakita_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "ميانو أكيمي": {
+    "name": "ميانو أكيمي",
+    "jp": "宮野 明美",
+    "role": "مرتبطة بالمنظمة",
+    "group": "عائلة ميانو",
+    "tag": "MIYANO",
+    "desc": "شخصية من عائلة ميانو مرتبطة بتاريخ المنظمة.",
+    "related": "ميانو شيهو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Akemi_Miyano_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "ميانو شيهو": {
+    "name": "ميانو شيهو",
+    "jp": "宮野 志保",
+    "role": "شيري",
+    "group": "عائلة ميانو",
+    "tag": "SHERRY",
+    "desc": "الهوية الأصلية لهايبرا آي.",
+    "related": "هايبارا آي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Shiho_Miyano_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/shiho/",
+    "episodes": []
+  },
+  "كودو يوساكو": {
+    "name": "كودو يوساكو",
+    "jp": "工藤 優作",
+    "role": "كاتب / محقق",
+    "group": "عائلة كودو",
+    "tag": "KUDO",
+    "desc": "والد شينيتشي وكاتب ومحقق معروف.",
+    "related": "شينيتشي كودو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Yusaku_Kudo_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "كودو يوكيو": {
+    "name": "كودو يوكيو",
+    "jp": "工藤 有希子",
+    "role": "ممثلة",
+    "group": "عائلة كودو",
+    "tag": "KUDO",
+    "desc": "والدة شينيتشي وممثلة سابقة.",
+    "related": "شينيتشي كودو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Yukiko_Kudo_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "كيساكي إيري": {
+    "name": "كيساكي إيري",
+    "jp": "妃 英理",
+    "role": "محامية",
+    "group": "عائلة موري",
+    "tag": "MORI",
+    "desc": "والدة ران وزوجة كوغورو السابقة.",
+    "related": "ران موري",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Eri_Kisaki_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "ماري أكاي": {
+    "name": "ماري أكاي",
+    "jp": "赤井 メアリー",
+    "role": "عائلة أكاي",
+    "group": "عائلة أكاي",
+    "tag": "AKAI",
+    "desc": "والدة شويتشي وماسومي وهيدييوشي.",
+    "related": "أكاي شويتشي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Mary_Sera_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "سيرا ماسومي": {
+    "name": "سيرا ماسومي",
+    "jp": "世良 真純",
+    "role": "محققة ثانوية",
+    "group": "منافسون",
+    "tag": "RIVAL",
+    "desc": "محققة ثانوية مرتبطة بعائلة أكاي.",
+    "related": "أكاي شويتشي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Masumi_Sera_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "أوكيا سوبارو": {
+    "name": "أوكيا سوبارو",
+    "jp": "沖矢 昴",
+    "role": "طالب دراسات عليا",
+    "group": "منافسون",
+    "tag": "MYSTERY",
+    "desc": "شخصية غامضة مرتبطة بخط أكاي.",
+    "related": "أكاي شويتشي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Subaru_Okiya_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "هاتا هيدييوشي": {
+    "name": "هاتا هيدييوشي",
+    "jp": "羽田 秀吉",
+    "role": "لاعب شوغي",
+    "group": "عائلة أكاي",
+    "tag": "SHUKICHI",
+    "desc": "عضو من عائلة أكاي.",
+    "related": "أكاي شويتشي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Shukichi_Haneda_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "كايتو كيد": {
+    "name": "كايتو كيد",
+    "jp": "怪盗キッド",
+    "role": "اللص الشبح",
+    "group": "منافسون",
+    "tag": "RIVAL",
+    "desc": "لص محترف ومنافس متكرر لكونان.",
+    "related": "شينيتشي كودو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Kaitou_Kid_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": [
+      [
+        "76",
+        "السر تحت ضوء القمر"
+      ],
+      [
+        "219",
+        "اجتماع المحققين العظماء"
+      ],
+      [
+        "356",
+        "قضية كايتو كيد"
+      ],
+      [
+        "887–888",
+        "قضية كيد الحديثة"
+      ]
+    ]
+  },
+  "كييوغوكو ماكوتو": {
+    "name": "كييوغوكو ماكوتو",
+    "jp": "京極 真",
+    "role": "كاراتيه",
+    "group": "منافسون",
+    "tag": "RIVAL",
+    "desc": "مقاتل قوي ومرتبط بسونوكو.",
+    "related": "سونوكو سوزوكي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Makoto_Kyogoku_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "ناكاموري غينزو": {
+    "name": "ناكاموري غينزو",
+    "jp": "中森 銀三",
+    "role": "شرطة / كايتو كيد",
+    "group": "الشرطة",
+    "tag": "POLICE",
+    "desc": "مفتش مرتبط بمطاردة كايتو كيد.",
+    "related": "كايتو كيد",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Ginzo_Nakamori_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "إينوموتو أزوسا": {
+    "name": "إينوموتو أزوسا",
+    "jp": "榎本 梓",
+    "role": "مقهى بوارو",
+    "group": "أماكن",
+    "tag": "POIROT",
+    "desc": "موظفة في مقهى بوارو.",
+    "related": "أمورو تورو",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Azusa_Enomoto_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/azusa/",
+    "episodes": []
+  },
+  "واكاسا رومي": {
+    "name": "واكاسا رومي",
+    "jp": "若狭 留美",
+    "role": "معلمة",
+    "group": "المدرسة",
+    "tag": "MYSTERY",
+    "desc": "معلمة ذات خلفية غامضة.",
+    "related": "المتحرون الصغار",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Rumi_Wakasa_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "كوباياشي سوميكو": {
+    "name": "كوباياشي سوميكو",
+    "jp": "小林 澄子",
+    "role": "معلمة",
+    "group": "المدرسة",
+    "tag": "SCHOOL",
+    "desc": "معلمة مرتبطة بالمتحرين الصغار.",
+    "related": "المتحرون الصغار",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Sumiko_Kobayashi_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/kobayashi/",
+    "episodes": []
+  },
+  "هوندو إيسوكي": {
+    "name": "هوندو إيسوكي",
+    "jp": "本堂 瑛祐",
+    "role": "طالب",
+    "group": "المدرسة",
+    "tag": "SCHOOL",
+    "desc": "شخصية مرتبطة بخط كير وعائلة هوندو.",
+    "related": "ميزوناشي رينا",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Eisuke_Hondou_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "سوزوكي جيروكيشي": {
+    "name": "سوزوكي جيروكيشي",
+    "jp": "鈴木 次郎吉",
+    "role": "عائلة سوزوكي",
+    "group": "عائلة سوزوكي",
+    "tag": "SUZUKI",
+    "desc": "قريب سونوكو ومنافس متكرر لكايتو كيد.",
+    "related": "كايتو كيد",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Jirokichi_Suzuki_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "هاتوري شيزوكا": {
+    "name": "هاتوري شيزوكا",
+    "jp": "服部 静華",
+    "role": "عائلة هاتوري",
+    "group": "أوساكا",
+    "tag": "OSAKA",
+    "desc": "والدة هيجي.",
+    "related": "هاتوري هيجي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Shizuka_Hattori_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  },
+  "تسوتومو أكاي": {
+    "name": "تسوتومو أكاي",
+    "jp": "赤井 務武",
+    "role": "عائلة أكاي",
+    "group": "عائلة أكاي",
+    "tag": "AKAI",
+    "desc": "والد عائلة أكاي.",
+    "related": "أكاي شويتشي",
+    "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Tsutomu_Akai_Profile.jpg",
+    "source": "https://www.ytv.co.jp/conan/character/",
+    "episodes": []
+  }
+}
