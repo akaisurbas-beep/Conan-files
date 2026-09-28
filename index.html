@@ -1,150 +1,94 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="CONAN FILES — موسوعة جماهيرية تفاعلية للمحقق كونان"><meta name="theme-color" content="#05070b">
-<title>CONAN FILES — موسوعة المحقق كونان</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CONAN FILES — Detective Conan Encyclopedia</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Orbitron:wght@600;800&display=swap');
-:root{--bg:#05070b;--p:#0d121a;--p2:#121a25;--line:#263344;--txt:#edf2f7;--muted:#95a4b6;--red:#df1821;--gold:#d8b46a;--cyan:#59c9db}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 75% -5%,#28364a,#05070b 34%);color:var(--txt);font-family:Cairo,Arial,sans-serif}a{color:inherit;text-decoration:none}
-.container{width:min(1240px,92%);margin:auto}header{position:sticky;top:0;z-index:30;background:#05070bea;backdrop-filter:blur(14px);border-bottom:1px solid #fff1}.nav{height:68px;display:flex;align-items:center;justify-content:space-between}.logo{font:800 18px Orbitron}.logo b{color:var(--red)}.links{display:flex;gap:19px;color:#b9c4d0;font-size:13px}.links a:hover{color:#fff}
-.hero{min-height:600px;display:flex;align-items:center;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#05070b 0%,#05070bdd 43%,#05070b55),linear-gradient(0deg,#05070b,transparent 45%),url("https://images.unsplash.com/photo-1453873531674-2151bcd01707?auto=format&fit=crop&w=1800&q=85") center/cover;filter:grayscale(.5)}.heroIn{position:relative;z-index:1}.ey{color:#ff4850;font-weight:800;letter-spacing:4px;font-size:12px}h1{font:800 clamp(44px,8vw,92px)/.93 Orbitron;margin:15px 0}.hero p{max-width:730px;color:#c3ccd6;font-size:18px;line-height:1.9}.btn{display:inline-block;border:1px solid #fff2;background:#fff1;padding:11px 17px;border-radius:8px;margin:10px 7px 0 0;cursor:pointer;color:#fff}.primary{background:var(--red);border-color:var(--red);font-weight:800}
-section{padding:78px 0}.head{display:flex;align-items:end;justify-content:space-between;gap:15px;margin-bottom:22px}h2{font-size:31px;margin:0}.sub{color:var(--muted);margin-top:4px}.line{height:1px;background:linear-gradient(90deg,var(--red),transparent);margin-bottom:23px}
-.controls{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:22px}input,select{background:var(--p);color:#fff;border:1px solid var(--line);padding:12px 14px;border-radius:8px}input{flex:1;min-width:250px}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.card{background:linear-gradient(145deg,#111925,#090d13);border:1px solid var(--line);border-radius:13px;overflow:hidden;cursor:pointer;transition:.2s}.card:hover{transform:translateY(-4px);border-color:#fff4}.pic{height:205px;display:grid;place-items:center;position:relative;background:radial-gradient(circle,#2d394c,#101722 45%,#080b10)}.pic b{font:800 36px Orbitron}.pic span{position:absolute;right:9px;bottom:9px;background:#000a;padding:4px 8px;border-radius:5px;font-size:10px}.body{padding:14px}.body strong{font-size:17px}.body small{display:block;color:var(--muted);margin-top:2px}.chip{display:inline-block;margin-top:9px;background:#fff1;border-radius:20px;padding:3px 8px;font-size:10px;color:#c8d2dd}
-.profile{display:none}.profile.active{display:block}.profileTop{display:grid;grid-template-columns:260px 1fr;gap:20px}.portrait{height:330px;border-radius:14px;background:radial-gradient(circle,#303c4e,#0b1017);display:grid;place-items:center;font:800 52px Orbitron;border:1px solid var(--line)}.profile h2{font-size:38px}.facts{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:20px 0}.fact{padding:14px;background:#fff1;border:1px solid var(--line);border-radius:9px}.fact small{display:block;color:var(--muted)}.fact b{display:block;margin-top:3px}.related{display:flex;gap:8px;flex-wrap:wrap}.rel{padding:7px 10px;border:1px solid var(--line);border-radius:20px;color:#cbd5df;cursor:pointer}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.box{background:var(--p);border:1px solid var(--line);border-radius:14px;padding:21px}.box h3{margin-top:0}.box p{color:var(--muted);line-height:1.8}.num{font:800 28px Orbitron;color:var(--red)}
-.artgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.art{height:290px;position:relative;overflow:hidden;border:1px solid var(--line);border-radius:14px;background:#101722}.art img{width:100%;height:100%;object-fit:cover}.cap{position:absolute;bottom:0;inset-inline:0;padding:40px 13px 10px;background:linear-gradient(transparent,#000e)}.cap button{float:left;background:#000b;border:0;color:#fff;border-radius:5px;padding:4px 8px;cursor:pointer}.upload{border:1px dashed #506075;border-radius:12px;min-height:120px;display:grid;place-items:center;color:#aab6c4;margin-bottom:18px;text-align:center}
-footer{border-top:1px solid var(--line);padding:34px 0;color:#788696;font-size:12px}.modal{position:fixed;inset:0;background:#000d;z-index:80;display:none;place-items:center;padding:18px}.modal.open{display:grid}.modalbox{width:min(820px,100%);max-height:90vh;overflow:auto;background:#0c1119;border:1px solid #fff2;border-radius:15px;padding:25px}.close{float:left;background:#fff1;border:1px solid #fff2;color:#fff;padding:6px 10px;border-radius:7px;cursor:pointer}.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:45px}
-@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.cards,.artgrid{grid-template-columns:1fr 1fr}.links{display:none}.profileTop{grid-template-columns:1fr}}
-@media(max-width:600px){.grid,.cards,.artgrid,.facts{grid-template-columns:1fr}.hero{min-height:540px}h1{font-size:46px}.portrait{height:260px}}
+:root{--bg:#080b12;--card:#111827;--card2:#172033;--text:#f3f4f6;--muted:#9ca3af;--red:#e63946;--gold:#f4c95d;--line:#263247}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#070a10,#0d1320);color:var(--text);font-family:Arial,"Noto Sans Arabic",sans-serif}
+a{text-decoration:none;color:inherit}.wrap{max-width:1150px;margin:auto;padding:18px}
+header{padding:28px 0 20px;border-bottom:1px solid var(--line);margin-bottom:20px}
+.logo{font-size:30px;font-weight:900;letter-spacing:1px}.logo span{color:var(--red)}
+.sub{color:var(--muted);margin-top:6px}
+.search{width:100%;padding:15px 17px;border-radius:14px;border:1px solid var(--line);background:#0d1421;color:white;font-size:16px;margin:20px 0}
+.filters{display:flex;gap:8px;flex-wrap:wrap}.filter{padding:9px 13px;border:1px solid var(--line);border-radius:999px;background:#0e1624;color:#ddd;cursor:pointer}.filter.active{background:var(--red);border-color:var(--red)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:.2s}.card:hover{transform:translateY(-3px);border-color:#42516a}
+.thumb{height:230px;background:#202b3d;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.thumb img{width:100%;height:100%;object-fit:cover}.initial{font-size:62px;font-weight:900;color:#6b7890}
+.cardbody{padding:14px}.ar{font-size:19px;font-weight:800}.en{font-size:12px;color:var(--muted);margin-top:3px}.tag{display:inline-block;margin-top:10px;padding:5px 8px;border-radius:7px;background:#1e293b;color:#cbd5e1;font-size:11px}
+#profile{display:none}.back{display:inline-block;margin-bottom:18px;color:var(--gold);cursor:pointer}
+.profile{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.profileTop{display:grid;grid-template-columns:260px 1fr;gap:22px}.profileImg{height:340px;background:#202b3d;border-radius:14px;overflow:hidden;display:flex;align-items:center;justify-content:center}.profileImg img{width:100%;height:100%;object-fit:cover}
+h1{margin:0 0 5px;font-size:32px}.en2{color:var(--muted);margin-bottom:18px}.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}.box{background:var(--card2);padding:13px;border-radius:12px}.label{font-size:11px;color:var(--muted);margin-bottom:4px}.value{font-weight:700}
+section{margin-top:22px}.episode{display:inline-block;background:#0d1421;border:1px solid var(--line);padding:9px 12px;border-radius:10px;margin:4px}
+.notice{padding:13px;background:#1a1520;border:1px solid #4a3037;border-radius:12px;color:#ddd;margin-top:18px}
+footer{color:#778399;text-align:center;padding:35px 0;font-size:12px}
+@media(max-width:650px){.profileTop{grid-template-columns:1fr}.profileImg{height:280px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.thumb{height:180px}.ar{font-size:16px}}
 </style>
 </head>
 <body>
-<header><div class="container nav"><a class="logo" href="#home"><b>CONAN</b> FILES</a><nav class="links"><a href="#characters">الشخصيات</a><a href="#groups">المجموعات</a><a href="#movies">الأفلام</a><a href="#fanart">Fan Art</a></nav></div></header>
+<div class="wrap">
+<header>
+<div class="logo">CONAN <span>FILES</span></div>
+<div class="sub">موسوعة غير رسمية لعالم المحقق كونان</div>
+</header>
 
-<section class="hero" id="home"><div class="container heroIn">
-<div class="ey">THE TRUTH IS ALWAYS ONE</div><h1>CONAN<br>FILES</h1>
-<p>موسوعة جماهيرية تفاعلية لعالم المحقق كونان. افتح ملف أي شخصية للوصول إلى صفحة مستقلة تضم المعلومات، الانتماء، العلاقات والروابط الداخلية.</p>
-<a class="btn primary" href="#characters">ابدأ الاستكشاف</a><a class="btn" href="#fanart">معرض Fan Art</a>
-</div></section>
+<main id="home">
+<input id="search" class="search" placeholder="ابحث عن شخصية...">
+<div id="filters" class="filters"></div>
+<section>
+<div id="grid" class="grid"></div>
+</section>
+</main>
 
-<section id="characters"><div class="container">
-<div class="head"><div><h2>قاعدة الشخصيات</h2><div class="sub">كل بطاقة تفتح ملف الشخصية الخاص بها.</div></div><b id="count"></b></div><div class="line"></div>
-<div class="controls"><input id="q" placeholder="ابحث بالاسم أو الدور أو المجموعة..."><select id="filter"><option value="all">كل المجموعات</option><option>الرئيسية</option><option>المتحرون الصغار</option><option>الشرطة</option><option>FBI</option><option>الأمن العام</option><option>المنظمة السوداء</option><option>أوساكا</option><option>عائلة كودو</option><option>عائلة أكاي</option><option>عائلة ميانو</option><option>عائلة موري</option><option>منافسون</option><option>المدرسة</option><option>أماكن</option></select></div>
-<div id="grid" class="grid"></div></div></section>
+<main id="profile">
+<div class="back" onclick="goHome()">← العودة إلى الشخصيات</div>
+<div id="profileContent"></div>
+</main>
 
-<section id="profileSection" class="profile"><div class="container"><div class="line"></div><div id="profile"></div></div></section>
-
-<section id="groups"><div class="container"><div class="head"><div><h2>موسوعة المجموعات</h2><div class="sub">أقسام منفصلة للتنقل داخل العالم.</div></div></div><div class="line"></div>
-<div class="cards">
-<div class="box"><div class="num">01</div><h3>المنظمة السوداء</h3><p>الأعضاء، الأسماء الحركية، والعلاقات.</p></div>
-<div class="box"><div class="num">02</div><h3>FBI</h3><p>أكاي، جودي، جيمس، كاميل.</p></div>
-<div class="box"><div class="num">03</div><h3>الأمن العام</h3><p>أمورو وفورويا وكازامي وخطهم.</p></div>
-<div class="box"><div class="num">04</div><h3>الشرطة</h3><p>طوكيو، ناغانو، أوساكا وغيرها.</p></div>
-<div class="box"><div class="num">05</div><h3>عائلة أكاي</h3><p>شويتشي، ماري، ماسومي، هيدييوشي.</p></div>
-<div class="box"><div class="num">06</div><h3>عائلة كودو</h3><p>شينيتشي، يوساكو ويوكيكو.</p></div>
-</div></div></section>
-
-<section id="movies"><div class="container"><div class="head"><div><h2>أفلام المحقق كونان</h2><div class="sub">ملفات جاهزة للتوسعة.</div></div></div><div class="line"></div><div id="moviesGrid" class="cards"></div></div></section>
-
-<section id="fanart"><div class="container"><div class="head"><div><h2>Fan Art Gallery</h2><div class="sub">أضف الأعمال التي تملك حق نشرها.</div></div></div><div class="line"></div>
-<label class="upload" for="files">＋ إضافة Fan Art<br><small>JPG / PNG / WEBP — تحفظ محليًا على جهازك</small></label><input id="files" type="file" accept="image/*" multiple hidden>
-<div id="art" class="artgrid"></div></div></section>
-
-<footer><div class="container">CONAN FILES — Fan Project غير رسمي. Detective Conan وشخصياته مملوكة لأصحاب الحقوق.</div></footer>
-
-<div class="modal" id="modal"><div class="modalbox"><button class="close" onclick="closeModal()">إغلاق</button><div id="modalText"></div></div></div>
-
+<footer>Fan project — Detective Conan / Case Closed. جميع الحقوق الخاصة بالشخصيات والصور لأصحابها.</footer>
+</div>
 <script>
-let chars = [];
-let movies = [];
-const grid=document.getElementById('grid');
-const q=document.getElementById('q');
-const filter=document.getElementById('filter');
-
-function initials(s){
-  return s.replace(/[^A-Za-z\u0600-\u06ff]/g,'').slice(0,2) || 'CF';
+const chars = [{"slug": "conan", "name_ar": "كونان إيدوغاوا", "name_en": "Conan Edogawa", "bio": "بطل السلسلة؛ هويته الحقيقية شينيتشي كودو.", "group": "Detective Boys", "related": "Shinichi Kudo", "episodes": ["1", "2", "129", "345", "425"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Conan_Edogawa_Profile.jpg"}, {"slug": "shinichi", "name_ar": "شينيتشي كودو", "name_en": "Shinichi Kudo", "bio": "محقق ثانوية تقلص جسده بعد إجباره على تناول عقار المنظمة السوداء.", "group": "Kudo Family", "related": "Ran Mouri", "episodes": ["1", "48–49", "190–193", "521–523", "927–928"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Shinichi_Kudo_Profile.jpg"}, {"slug": "ran", "name_ar": "ران موري", "name_en": "Ran Mouri", "bio": "صديقة شينيتشي المقربة وابنة كوغورو وإيري.", "group": "Mouri Family", "related": "Shinichi Kudo", "episodes": ["1", "48–49", "188–193", "616–621"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Ran_Mouri_Profile.jpg"}, {"slug": "kogoro", "name_ar": "كوغورو موري", "name_en": "Kogoro Mouri", "bio": "محقق خاص ووالد ران؛ ارتبط اسمه بلقب كوغورو النائم.", "group": "Mouri Family", "related": "Ran Mouri", "episodes": ["2", "96–97", "217", "333–336"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Kogoro_Mouri_Profile.jpg"}, {"slug": "haibara", "name_ar": "آي هايبارا", "name_en": "Ai Haibara", "bio": "عالمة سابقة في المنظمة السوداء؛ هويتها الحقيقية شيهو ميانو.", "group": "Detective Boys", "related": "Conan Edogawa", "episodes": ["129", "176–178", "345", "701–704", "1077–1080"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Haibara_Ai_Profile.jpg"}, {"slug": "agasa", "name_ar": "هيروشي أغاسا", "name_en": "Hiroshi Agasa", "bio": "مخترع وصديق مقرّب من شينيتشي، يساعد كونان بأدواته.", "group": "Allies", "related": "Conan Edogawa", "episodes": ["1", "129", "309–311", "486–487"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Hiroshi_Agasa_Profile.jpg"}, {"slug": "ayumi", "name_ar": "أيومي يوشيدا", "name_en": "Ayumi Yoshida", "bio": "عضوة في فريق المتحرين الصغار.", "group": "Detective Boys", "related": "Conan Edogawa", "episodes": ["1", "12", "33", "140"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Ayumi_Yoshida_Profile.jpg"}, {"slug": "genta", "name_ar": "غينتا كوجيما", "name_en": "Genta Kojima", "bio": "عضو في فريق المتحرين الصغار.", "group": "Detective Boys", "related": "Ayumi Yoshida", "episodes": ["1", "12", "33"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Genta_Kojima_Profile.jpg"}, {"slug": "mitsuhiko", "name_ar": "ميتسوهيكو تسوبورايا", "name_en": "Mitsuhiko Tsuburaya", "bio": "عضو ذكي في فريق المتحرين الصغار.", "group": "Detective Boys", "related": "Ayumi Yoshida", "episodes": ["1", "33", "136–137", "140"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Mitsuhiko_Tsuburaya_Profile.jpg"}, {"slug": "sonoko", "name_ar": "سونوكو سوزوكي", "name_en": "Sonoko Suzuki", "bio": "صديقة ران المقربة من عائلة سوزوكي الثرية.", "group": "Suzuki Family", "related": "Ran Mouri", "episodes": ["6", "34–35", "219", "490"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Sonoko_Suzuki_Profile.jpg"}, {"slug": "heiji", "name_ar": "هيجي هاتوري", "name_en": "Heiji Hattori", "bio": "محقق من أوساكا ومنافس وصديق شينيتشي.", "group": "Osaka Police / Allies", "related": "Kazuha Toyama", "episodes": ["48–49", "57–58", "118", "490", "1029–1030"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Heiji_Hattori_Profile.jpg"}, {"slug": "kazuha", "name_ar": "كازوها توياما", "name_en": "Kazuha Toyama", "bio": "صديقة طفولة هيجي ومقربة منه.", "group": "Osaka", "related": "Heiji Hattori", "episodes": ["118", "141–143", "166–168", "1029–1030"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Kazuha_Toyama_Profile.jpg"}, {"slug": "akai", "name_ar": "شوويتشي أكاي", "name_en": "Shuichi Akai", "bio": "عميل FBI ومتخصص في مواجهة المنظمة السوداء.", "group": "FBI", "related": "Jodie Starling", "episodes": ["230–231", "345", "491–504", "779–783", "861–864"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Shuichi_Akai_Profile.jpg"}, {"slug": "amuro", "name_ar": "تورو أمورو", "name_en": "Toru Amuro", "bio": "اسم مستعار لري فورويا، وهو عميل في الشرطة السرية اليابانية ومتخفٍ داخل المنظمة.", "group": "Public Security / Organization", "related": "Conan Edogawa", "episodes": ["667–668", "700", "701–704", "770–783", "898–902"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Toru_Amuro_Profile.jpg"}, {"slug": "furuya", "name_ar": "ري فورويا", "name_en": "Rei Furuya", "bio": "عميل في الأمن العام الياباني يستخدم هوية تورو أمورو.", "group": "Public Security", "related": "Toru Amuro", "episodes": ["779–783", "866–867", "1029–1030"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Rei_Furuya_Profile.jpg"}, {"slug": "gin", "name_ar": "جين", "name_en": "Gin", "bio": "عضو بارز في المنظمة السوداء وأحد أخطر خصوم كونان.", "group": "Black Organization", "related": "Vodka", "episodes": ["1", "13", "176–178", "345", "425"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Gin_Profile.jpg"}, {"slug": "vodka", "name_ar": "فودكا", "name_en": "Vodka", "bio": "عضو في المنظمة السوداء وشريك جين.", "group": "Black Organization", "related": "Gin", "episodes": ["1", "176–178", "345", "425"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Vodka_Profile.jpg"}, {"slug": "vermouth", "name_ar": "فيرموث", "name_en": "Vermouth", "bio": "عضوة غامضة وبارعة في التنكر داخل المنظمة السوداء.", "group": "Black Organization", "related": "Conan Edogawa", "episodes": ["176–178", "286–288", "345", "425"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Vermouth_Profile.jpg"}, {"slug": "kaito", "name_ar": "كايتو كيد", "name_en": "Kaito Kid", "bio": "لص محترف يستخدم الخدع والتخفي ويظهر في قضايا عديدة.", "group": "Kaito Kid", "related": "Conan Edogawa", "episodes": ["76", "219", "356", "887–888"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Kaito_Kid_Profile.jpg"}, {"slug": "sato", "name_ar": "ميواكو ساتو", "name_en": "Miwako Sato", "bio": "ضابطة في شرطة العاصمة اليابانية.", "group": "Tokyo Metropolitan Police", "related": "Wataru Takagi", "episodes": ["130–131", "146–147", "304", "535–536"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Miwako_Sato_Profile.jpg"}, {"slug": "takagi", "name_ar": "واتارو تاكاغي", "name_en": "Wataru Takagi", "bio": "ضابط في شرطة العاصمة اليابانية.", "group": "Tokyo Metropolitan Police", "related": "Miwako Sato", "episodes": ["146–147", "156–157", "304", "535–536"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Wataru_Takagi_Profile.jpg"}, {"slug": "shiratori", "name_ar": "ناتسومي شيراتوري", "name_en": "Ninzaburo Shiratori", "bio": "مفتش في شرطة العاصمة اليابانية.", "group": "Tokyo Metropolitan Police", "related": "Miwako Sato", "episodes": ["146–147", "304", "568–569"], "image": "https://www.detectiveconanworld.com/wiki/Special:Redirect/file/Ninzaburo_Shiratori_Profile.jpg"}];
+const imgFallback = n => `<div class="initial">${(n||'?').slice(0,1)}</div>`;
+function esc(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function card(c){
+ return `<a class="card" href="#${c.slug}" onclick="openChar('${c.slug}');return false">
+ <div class="thumb"><img src="${c.image}" alt="${esc(c.name_en)}" onerror="this.style.display='none';this.parentNode.innerHTML=imgFallback('${esc(c.name_ar)}')"></div>
+ <div class="cardbody"><div class="ar">${esc(c.name_ar)}</div><div class="en">${esc(c.name_en)}</div><span class="tag">${esc(c.group)}</span></div></a>`;
 }
+let active='الكل';
 function render(){
-  const term=q.value.trim().toLowerCase();
-  const f=filter.value;
-  const list=chars.map((x,i)=>({x:x,i:i})).filter(function(o){
-    return (f==='all'||o.x[3]===f) && (!term||o.x.join(' ').toLowerCase().includes(term));
-  });
-  grid.innerHTML=list.length ? list.map(function(o){
-    return '<article class="card" onclick="showProfile('+o.i+')"><div class="pic"><b>'+initials(o.x[0])+'</b><span>'+o.x[4]+'</span></div><div class="body"><strong>'+o.x[0]+'</strong><small>'+o.x[2]+'</small><span class="chip">'+o.x[3]+'</span></div></article>';
-  }).join('') : '<div class="empty">لا توجد نتائج مطابقة.</div>';
+ const q=document.getElementById('search').value.trim().toLowerCase();
+ const list=chars.filter(c=>(active==='الكل'||c.group===active)&&(!q||c.name_ar.toLowerCase().includes(q)||c.name_en.toLowerCase().includes(q)));
+ document.getElementById('grid').innerHTML=list.map(card).join('')||'<p>لا توجد نتائج.</p>';
 }
-function showProfile(i){
-  const c=chars[i];
-  document.getElementById('profileSection').classList.add('active');
-  document.getElementById('profile').innerHTML=
-    '<div class="profileTop"><div class="portrait">'+initials(c[0])+'</div><div>'+
-    '<div class="ey">'+c[4]+'</div><h2>'+c[0]+'</h2><div class="sub">'+c[1]+'</div>'+
-    '<p style="line-height:1.9;margin-top:20px">'+c[5]+'</p>'+
-    '<div class="facts"><div class="fact"><small>الدور</small><b>'+c[2]+'</b></div><div class="fact"><small>المجموعة</small><b>'+c[3]+'</b></div></div>'+
-    '<h3>شخصية مرتبطة</h3><div class="related"><span class="rel" onclick="searchName(\''+c[6].replace(/'/g,"\\'")+'\')">'+c[6]+'</span></div>'+
-    '</div></div><div class="box" style="margin-top:18px"><h3>محتوى الملف الكامل</h3><p>هذه الصفحة مجهزة لإضافة الصور، أول ظهور، الحلقات والقضايا، العلاقات، الهويات، الاقتباسات، Fan Art والروابط الرسمية للشخصية. البيانات والصور يمكن توسيعها دون تغيير تصميم الموقع.</p><a class="btn primary" href="#fanart">عرض المعرض</a></div>';
-  document.getElementById('profileSection').scrollIntoView({behavior:'smooth'});
-  history.replaceState(null,'','#character-'+i);
+function filters(){
+ const groups=['الكل',...new Set(chars.map(c=>c.group))];
+ document.getElementById('filters').innerHTML=groups.map(g=>`<button class="filter ${g===active?'active':''}" onclick="active='${g.replace(/'/g,"\\'")}';filters();render()">${esc(g)}</button>`).join('');
 }
-function searchName(name){
-  q.value=name;
-  render();
-  document.getElementById('characters').scrollIntoView({behavior:'smooth'});
+function openChar(slug){
+ const c=chars.find(x=>x.slug===slug); if(!c)return;
+ document.getElementById('home').style.display='none';document.getElementById('profile').style.display='block';
+ document.getElementById('profileContent').innerHTML=`
+ <div class="profile"><div class="profileTop">
+ <div class="profileImg"><img src="${c.image}" alt="${esc(c.name_en)}" onerror="this.style.display='none';this.parentNode.innerHTML=imgFallback('${esc(c.name_ar)}')"></div>
+ <div><h1>${esc(c.name_ar)}</h1><div class="en2">${esc(c.name_en)}</div>
+ <div class="info"><div class="box"><div class="label">الدور</div><div class="value">${esc(c.bio)}</div></div>
+ <div class="box"><div class="label">المجموعة</div><div class="value">${esc(c.group)}</div></div>
+ <div class="box"><div class="label">شخصية مرتبطة</div><div class="value">${esc(c.related)}</div></div></div>
+ </div></div>
+ <section><h2>أبرز الحلقات</h2>${c.episodes.map(e=>`<span class="episode">الحلقة ${esc(e)}</span>`).join('')}</section>
+ <div class="notice">ملاحظة: أرقام الحلقات هنا قائمة مختصرة لأبرز الظهورات وليست سجلًا كاملًا لكل ظهور.</div>
+ </div>`;
+ location.hash=slug; window.scrollTo(0,0);
 }
-function closeModal(){document.getElementById('modal').classList.remove('open')}
-
-function renderMovies(){
-  document.getElementById('moviesGrid').innerHTML=movies.map(function(m){
-    return '<div class="box"><div class="num">MOVIE '+m[0]+'</div><h3>'+m[1]+'</h3><p>'+m[2]+'</p><button class="btn" onclick="movieInfo('+JSON.stringify(m[0])+')">فتح الملف</button></div>';
-  }).join('');
-}
-function movieInfo(n){
-  const m=movies.find(function(x){return x[0]===n;});
-  document.getElementById('modalText').innerHTML='<div class="ey">MOVIE '+m[0]+'</div><h2>'+m[1]+'</h2><p style="line-height:2">صفحة الفيلم جاهزة لإضافة القصة، الشخصيات، الخصم، المواقع، القضايا، الموسيقى، والصور المرخصة.</p>';
-  document.getElementById('modal').classList.add('open');
-}
-
-const files=document.getElementById('files');
-const art=document.getElementById('art');
-function loadArt(){
-  const a=JSON.parse(localStorage.getItem('conan_files_art')||'[]');
-  art.innerHTML=a.map(function(x,i){
-    return '<div class="art"><img src="'+x.data+'" alt="'+x.name+'"><div class="cap">'+x.name+'<button onclick="deleteArt('+i+')">حذف</button></div></div>';
-  }).join('');
-}
-function deleteArt(i){
-  const a=JSON.parse(localStorage.getItem('conan_files_art')||'[]');
-  a.splice(i,1);
-  localStorage.setItem('conan_files_art',JSON.stringify(a));
-  loadArt();
-}
-files.onchange=function(){
-  const a=JSON.parse(localStorage.getItem('conan_files_art')||'[]');
-  const fs=Array.from(files.files);
-  let done=0;
-  fs.forEach(function(file){
-    const reader=new FileReader();
-    reader.onload=function(){
-      a.push({name:file.name,data:reader.result});
-      done++;
-      if(done===fs.length){
-        localStorage.setItem('conan_files_art',JSON.stringify(a));
-        loadArt();
-      }
-    };
-    reader.readAsDataURL(file);
-  });
-};
-
-chars = [["كونان إيدوغاوا", "江戸川 コナン", "البطل", "الرئيسية", "MAIN", "الهوية التي يستخدمها شينيتشي كودو بعد تقلص جسده.", "شينيتشي كودو"], ["شينيتشي كودو", "工藤 新一", "محقق ثانوية", "الرئيسية", "MAIN", "المحقق الشهير في الثانوية والهوية الأصلية لكونان.", "كونان إيدوغاوا"], ["ران موري", "毛利 蘭", "طالبة / كاراتيه", "الرئيسية", "MAIN", "صديقة شينيتشي وابنة كوغورو.", "شينيتشي كودو"], ["كوغورو موري", "毛利 小五郎", "محقق خاص", "الرئيسية", "MAIN", "والد ران وصاحب مكتب موري للتحقيقات.", "ران موري"], ["هايبارا آي", "灰原 哀", "عالمة / عضوة سابقة", "الرئيسية", "MAIN", "شخصية محورية ذات ماضٍ مرتبط بالمنظمة السوداء.", "ميانو شيهو"], ["الدكتور أغاسا", "阿笠 博士", "مخترع", "الرئيسية", "MAIN", "مخترع وصديق مقرب لكونان.", "كونان إيدوغاوا"], ["أيومي يوشيدا", "吉田 歩美", "المتحرون الصغار", "المتحرون الصغار", "DETECTIVES", "عضوة في فريق المتحرين الصغار.", "غينتا كوجيما"], ["غينتا كوجيما", "小嶋 元太", "المتحرون الصغار", "المتحرون الصغار", "DETECTIVES", "عضو في فريق المتحرين الصغار.", "ميتسوهيكو تسوبورايا"], ["ميتسوهيكو تسوبورايا", "円谷 光彦", "المتحرون الصغار", "المتحرون الصغار", "DETECTIVES", "عضو ذكي وفضولي في الفريق.", "أيومي يوشيدا"], ["سونوكو سوزوكي", "鈴木 園子", "صديقة ران", "الرئيسية", "MAIN CAST", "صديقة ران المقربة من عائلة سوزوكي.", "ران موري"], ["هاتوري هيجي", "服部 平次", "محقق أوساكا", "أوساكا", "OSAKA", "محقق ثانوية ومنافس وصديق لكونان.", "توياما كازوها"], ["توياما كازوها", "遠山 和葉", "أوساكا", "أوساكا", "OSAKA", "صديقة طفولة هيجي.", "هاتوري هيجي"], ["أوكا موميجي", "大岡 紅葉", "أوساكا", "أوساكا", "OSAKA", "شخصية مرتبطة بخط هيجي وأوساكا.", "هاتوري هيجي"], ["ميغوري جوزو", "目暮 十三", "شرطة طوكيو", "الشرطة", "POLICE", "مفتش في شرطة العاصمة.", "تاكاغي واتارو"], ["ساتو ميواكو", "佐藤 美和子", "شرطة طوكيو", "الشرطة", "POLICE", "ضابطة بارزة في شرطة العاصمة.", "تاكاغي واتارو"], ["تاكاغي واتارو", "高木 渉", "شرطة طوكيو", "الشرطة", "POLICE", "ضابط يعمل ضمن فريق التحقيق.", "ساتو ميواكو"], ["شيروتوري نينزابورو", "白鳥 任三郎", "شرطة طوكيو", "الشرطة", "POLICE", "مفتش في شرطة العاصمة.", "ميغوري جوزو"], ["ياماتو كانسوكي", "大和 敢助", "شرطة ناغانو", "الشرطة", "NAGANO", "مفتش من شرطة ناغانو.", "موروفوشي تاكااكي"], ["أويهارا يوي", "上原 由衣", "شرطة ناغانو", "الشرطة", "NAGANO", "ضابطة من شرطة ناغانو.", "ياماتو كانسوكي"], ["موروفوشي تاكااكي", "諸伏 高明", "شرطة ناغانو", "الشرطة", "NAGANO", "مفتش من شرطة ناغانو.", "موروفوشي هيروميتسو"], ["أكاي شويتشي", "赤井 秀一", "FBI", "FBI", "FBI", "عميل FBI مرتبط بمواجهة المنظمة السوداء.", "أوكيا سوبارو"], ["جودي ستارلينغ", "ジョディ・スターリング", "FBI", "FBI", "FBI", "عميلة FBI شاركت في التحقيقات المرتبطة بالمنظمة.", "أكاي شويتشي"], ["جيمس بلاك", "ジェイムズ・ブラック", "FBI", "FBI", "FBI", "مسؤول في فريق FBI باليابان.", "أكاي شويتشي"], ["أندريه كاميل", "アンドレ・キャメル", "FBI", "FBI", "FBI", "عميل FBI وعضو في فريق أكاي.", "أكاي شويتشي"], ["أمورو تورو", "安室 透", "الأمن العام / بوربون", "الأمن العام", "PUBLIC SECURITY", "شخصية متعددة الهويات والارتباطات.", "فورويا ري"], ["فورويا ري", "降谷 零", "الأمن العام", "الأمن العام", "PUBLIC SECURITY", "الهوية الأصلية لأمورو تورو.", "أمورو تورو"], ["كازامي يوتيا", "風見 裕也", "الأمن العام", "الأمن العام", "PUBLIC SECURITY", "ضابط مرتبط بالأمن العام.", "أمورو تورو"], ["جين", "ジン", "المنظمة السوداء", "المنظمة السوداء", "ORGANIZATION", "عضو بارز في المنظمة السوداء.", "وودكا"], ["وودكا", "ウォッカ", "المنظمة السوداء", "المنظمة السوداء", "ORGANIZATION", "شريك جين الدائم.", "جين"], ["بلموت", "ベルモット", "المنظمة السوداء", "المنظمة السوداء", "ORGANIZATION", "عضوة بارزة تتميز بالتنكر.", "جين"], ["كانتي", "キャンティ", "قناصة", "المنظمة السوداء", "ORGANIZATION", "قناصة في المنظمة السوداء.", "كورن"], ["كورن", "コルン", "قناص", "المنظمة السوداء", "ORGANIZATION", "قناص في المنظمة السوداء.", "كانتي"], ["رام", "ラム", "المنظمة السوداء", "المنظمة السوداء", "ORGANIZATION", "شخصية قيادية في المنظمة السوداء.", "واكيتا كانينوري"], ["واكيتا كانينوري", "脇田 兼則", "هوية مرتبطة برام", "المنظمة السوداء", "MYSTERY", "شخصية مرتبطة بخط رام.", "رام"], ["ميانو أكيمي", "宮野 明美", "مرتبطة بالمنظمة", "عائلة ميانو", "MIYANO", "شخصية من عائلة ميانو مرتبطة بتاريخ المنظمة.", "ميانو شيهو"], ["ميانو شيهو", "宮野 志保", "شيري", "عائلة ميانو", "SHERRY", "الهوية الأصلية لهايبرا آي.", "هايبارا آي"], ["كودو يوساكو", "工藤 優作", "كاتب / محقق", "عائلة كودو", "KUDO", "والد شينيتشي وكاتب ومحقق معروف.", "شينيتشي كودو"], ["كودو يوكيو", "工藤 有希子", "ممثلة", "عائلة كودو", "KUDO", "والدة شينيتشي وممثلة سابقة.", "شينيتشي كودو"], ["كيساكي إيري", "妃 英理", "محامية", "عائلة موري", "MORI", "والدة ران وزوجة كوغورو السابقة.", "ران موري"], ["ماري أكاي", "赤井 メアリー", "عائلة أكاي", "عائلة أكاي", "AKAI", "والدة شويتشي وماسومي وهيدييوشي.", "أكاي شويتشي"], ["سيرا ماسومي", "世良 真純", "محققة ثانوية", "منافسون", "RIVAL", "محققة ثانوية مرتبطة بعائلة أكاي.", "أكاي شويتشي"], ["أوكيا سوبارو", "沖矢 昴", "طالب دراسات عليا", "منافسون", "MYSTERY", "شخصية غامضة مرتبطة بخط أكاي.", "أكاي شويتشي"], ["هاتا هيدييوشي", "羽田 秀吉", "لاعب شوغي", "عائلة أكاي", "SHUKICHI", "عضو من عائلة أكاي.", "أكاي شويتشي"], ["كايتو كيد", "怪盗キッド", "اللص الشبح", "منافسون", "RIVAL", "لص محترف ومنافس متكرر لكونان.", "شينيتشي كودو"], ["كييوغوكو ماكوتو", "京極 真", "كاراتيه", "منافسون", "RIVAL", "مقاتل قوي ومرتبط بسونوكو.", "سونوكو سوزوكي"], ["ناكاموري غينزو", "中森 銀三", "شرطة / كايتو كيد", "الشرطة", "POLICE", "مفتش مرتبط بمطاردة كايتو كيد.", "كايتو كيد"], ["إينوموتو أزوسا", "榎本 梓", "مقهى بوارو", "أماكن", "POIROT", "موظفة في مقهى بوارو.", "أمورو تورو"], ["واكاسا رومي", "若狭 留美", "معلمة", "المدرسة", "MYSTERY", "معلمة ذات خلفية غامضة.", "المتحرون الصغار"], ["كوباياشي سوميكو", "小林 澄子", "معلمة", "المدرسة", "SCHOOL", "معلمة مرتبطة بالمتحرين الصغار.", "المتحرون الصغار"], ["هوندو إيسوكي", "本堂 瑛祐", "طالب", "المدرسة", "SCHOOL", "شخصية مرتبطة بخط كير وعائلة هوندو.", "ميزوناشي رينا"], ["سوزوكي جيروكيشي", "鈴木 次郎吉", "عائلة سوزوكي", "عائلة سوزوكي", "SUZUKI", "قريب سونوكو ومنافس متكرر لكايتو كيد.", "كايتو كيد"], ["هاتوري شيزوكا", "服部 静華", "عائلة هاتوري", "أوساكا", "OSAKA", "والدة هيجي.", "هاتوري هيجي"], ["تسوتومو أكاي", "赤井 務武", "عائلة أكاي", "عائلة أكاي", "AKAI", "والد عائلة أكاي.", "أكاي شويتشي"]];
-movies = [["01", "الناجي الوحيد من السماء الزرقاء", "The Time-Bombed Skyscraper"], ["02", "الهدف الرابع عشر", "The Fourteenth Target"], ["03", "ساحر القرن الأخير", "The Last Wizard of the Century"], ["04", "أسير في عينيها", "Captured in Her Eyes"], ["05", "العد التنازلي إلى الجنة", "Countdown to Heaven"], ["06", "شبح شارع بيكر", "The Phantom of Baker Street"], ["07", "تقاطع طرق في العاصمة القديمة", "Crossroad in the Ancient Capital"], ["13", "مطارد الغراب", "The Raven Chaser"], ["18", "قناص البعد الآخر", "Dimensional Sniper"], ["21", "رسالة الحب القرمزية", "The Crimson Love Letter"], ["24", "الرصاصة القرمزية", "The Scarlet Bullet"], ["26", "الغواصة الحديدية السوداء", "Black Iron Submarine"], ["27", "الوجه الساقط من الطريق السريع", "Fallen Angel of the Highway"], ["28", "الوميض ذو العين الواحدة", "One-Eyed Flashback"]];
-document.getElementById('count').textContent=chars.length+' شخصية';
-render();
-renderMovies();
-loadArt();
+function goHome(){location.hash='';document.getElementById('profile').style.display='none';document.getElementById('home').style.display='block';render()}
+document.getElementById('search').addEventListener('input',render);
+function route(){const s=location.hash.slice(1); if(s&&chars.some(c=>c.slug===s))openChar(s);else goHome()}
+filters();render();route();
 </script>
 </body>
 </html>
